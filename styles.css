@@ -1,0 +1,38 @@
+
+.hero-headline,
+.hero-subheadline {
+    opacity: 0;
+    transform: scale(0.9);
+    animation: fadeInScale 3s forwards;
+}
+
+@keyframes fadeInScale {
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.visual-image {
+    max-width: 100%;
+    width: 100%; 
+    height: auto;
+    opacity: 2;
+    transform: translateX(20px);
+}
+
+
+.domiboard {
+    
+    margin:  auto; 
+    padding: 40px 0; 
+}
+#navbarNav a:hover{
+    color: brown;
+}
+#Logo a:hover img {
+    cursor:pointer;
+}
+.no-cursor{
+    cursor: alias;
+  }
